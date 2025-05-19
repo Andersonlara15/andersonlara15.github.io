@@ -18,7 +18,7 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "Dashboard de Ventas e Ingresos",
-    summary: "El objetivo de este proyecto es unificar la información y generar un cuadro de control para el siguimiento a los pedidos y pagos realizados.",
+    summary: "El objetivo de este proyecto es unificar la información y generar un cuadro de control para el siguimiento de ventas e ingresos",
     images: [
       "https://raw.githubusercontent.com/Andersonlara15/andersonlara15.github.io/main/public/general.jpg",
       "https://example.com/dashboard2.jpg",
