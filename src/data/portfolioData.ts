@@ -17,20 +17,21 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Customer Insights Dashboard for E-Commerce",
-    summary: "Developed an interactive Power BI dashboard to analyze customer behavior, sales trends, and marketing performance for an e-commerce company.",
+    title: "Dashboard de Ventas e Ingresos",
+    summary: "El objetivo de este proyecto es unificar la información y generar un cuadro de control para el siguimiento a los pedidos y pagos realizados.",
     images: [
-      "https://example.com/dashboard1.jpg",
+      "https://raw.githubusercontent.com/Andersonlara15/andersonlara15.github.io/main/public/general.jpg",
       "https://example.com/dashboard2.jpg",
       "https://example.com/dashboard3.jpg"
     ],
-    tags: ["Power BI", "SQL", "Data Visualization", "Customer Analytics", "Business Intelligence"],
+    tags: ["Power BI", "SQL", "Data Visualization", "Customer Analytics", "Business Intelligence", "Oracle"],
     details: {
-      challenge: "The company lacked a centralized reporting system to track customer engagement, purchase patterns, and marketing campaign effectiveness.",
-      solution: "Designed and implemented a Power BI dashboard integrating data from Google Analytics, CRM systems, and sales records, providing real-time insights.",
+      challenge: "La compañia requeria saber como podia unificar archivos de excel donde cada departamento pasaba la información por medio de correo a una sola persona y esta unificaba manualmente, es de resaltar que no tenian un sistema como CRM para la gestion de sus clientes y pedidos .",
+      solution: "Al ser un proceso manual se sugirió a la compañia contratar un sistema CRM donde se pudiera gestionar y hacer seguimiento a todo su E-commerce, mientras esto sucedia la opcion más valida y rapida fue unificar esta información generando un repositorio en la nube (OneDrive) donde cada area dejara su archivo de acuerdo a una estructura de tablas e información ya definida, se creo una base de datos en Oracle donde se unificada automaticamente esta información de acuerdo a los datos registrados, adicional se creo un tablero en Power BI donde se podia hacer seguimiento de una manera más facil a las ventas y hacer un analisis más profundo en los ingresos de la compañia .",
       impact: [
-        "Increased marketing ROI by 25% through data-driven campaign adjustments.",
-        "Enhanced customer segmentation, leading to a 15% improvement in personalized recommendations and repeat purchases."
+        "Incremento en la velocidad de entrega de los pedidos debido a la.",
+        "Visualización demografica de que regiones son los ingresos más altos .",
+        "Conocer y entender que los productos más vendidos no significaba ser los que mayor cantidad de dinero ingresaban"
       ]
     }
   },
