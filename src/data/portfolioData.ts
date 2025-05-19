@@ -21,7 +21,7 @@ export const projects: Project[] = [
     summary: "El objetivo de este proyecto es unificar la información y generar un cuadro de control para el siguimiento de ventas e ingresos",
     images: [
       "https://raw.githubusercontent.com/Andersonlara15/andersonlara15.github.io/main/public/general.jpg",
-      "https://raw.githubusercontent.com/Andersonlara15/andersonlara15.github.io/main/public/sql.jpg",
+      "https://raw.githubusercontent.com/Andersonlara15/andersonlara15.github.io/main/public/modelado.jpg",
       "https://raw.githubusercontent.com/Andersonlara15/andersonlara15.github.io/main/public/tendencia.jpg"
     ],
     tags: ["Power BI", "SQL", "Data Visualization", "Customer Analytics", "Business Intelligence", "Oracle"],
