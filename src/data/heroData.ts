@@ -1,25 +1,19 @@
 export const heroData = {
-  name: 'John Doe',
-  title: 'Full-Stack Developer',
-  description: 'I build scalable web applications and transform raw data into meaningful insights that drive business success.',
-  profilePicture: 'https://example.com/profilepic.jpg',
+  name: 'Anderson Lara',
+  title: 'Analista de Datos/BI',
+  description: 'Me encanta los datos y la manera tan increible en que se pueden transformar dando lugar a decisiones que cambian corporaciones.',
+  profilePicture: './publc/Profile.png',
   skills: [
-    'JavaScript',
-    'React',
-    'Node.js',
     'SQL',
-    'Python',
     'Power BI',
+    'Tableu',
+    'Automatización',
     'DAX',
     'ETL',
     'Data Modeling',
-    'API Development',
-    'Cloud Computing',
-    'Machine Learning'
-  ],
+   ],
   contact: {
-    github: 'https://github.com/johndoe',
-    linkedin: 'https://www.linkedin.com/in/johndoe/',
-    email: 'johndoe@example.com'
+    github: 'https://github.com/Andersonlara15',
+    linkedin: 'https://www.linkedin.com/in/anderson-lara-36673ab6/'
   }
 };
