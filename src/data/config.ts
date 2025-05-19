@@ -6,7 +6,7 @@ export const config = {
   keywords: 'portfolio, business intelligence, data analysis, Power BI Reports, Software Engineer, Web Developer',
   favicon: '/favicon.svg',
   social: {
-    linkedin: 'www.linkedin.com/in/anderson-lara-36673ab6',
+    linkedin: 'https://www.linkedin.com/in/anderson-lara-36673ab6/',
     github: 'https://github.com/Andersonlara15'
   }
 };
