@@ -2,7 +2,7 @@ export const heroData = {
   name: 'Anderson Lara',
   title: 'Analista de Datos/BI',
   description: 'Me encanta los datos y la manera tan increible en que se pueden transformar dando lugar a decisiones que cambian corporaciones.',
-  profilePicture: 'https://i.ibb.co/abc123/tu-imagen.jpg',
+  profilePicture: 'https://raw.githubusercontent.com/Andersonlara15/andersonlara15.github.io/main/public/Profile.jpg',
   skills: [
     'SQL',
     'Power BI',
