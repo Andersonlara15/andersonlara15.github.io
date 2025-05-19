@@ -1,12 +1,12 @@
 export const config = {
-  siteTitle: 'John Doe Portfolio',
-  description: 'Hi, I am John Doe, a passionate web developer and data analyst. I thrive on solving problems and building innovative solutions with modern technology.',
-  author: 'John Doe',
-  contactEmail: 'johndoe@example.com',
+  siteTitle: 'Anderson Lara Portfolio',
+  description: 'Soy un analista de datos apacionado por la busqueda de información y diseño de soluciones analiticas orientada a la toma de decisiones estrategicas. En mis más de 5 años he logrado automatizar y optimizar procesos llegando tener una reduccion del 70% en tiempos de entrega',
+  author: 'JAnderson Lara',
+  contactEmail: 'yesid1597@hotmail.es',
   keywords: 'portfolio, business intelligence, data analysis, Power BI Reports, Software Engineer, Web Developer',
   favicon: '/favicon.svg',
   social: {
-    linkedin: 'https://www.linkedin.com/in/johndoe/',
-    github: 'https://github.com/johndoe'
+    linkedin: 'https://www.linkedin.com/in/anderson-lara-36673ab6/',
+    github: 'https://github.com/Andersonlara15'
   }
 };
