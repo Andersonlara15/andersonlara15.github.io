@@ -106,6 +106,7 @@ const Hero = () => {
           src={heroData.profilePicture}
           alt={heroData.name}
           className="mb-8 h-48 w-48 rounded-full border-4 border-primary object-cover shadow-lg"
+          style="width: 158px;"
         />
         <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-6xl">
           {heroData.name}
