@@ -128,17 +128,17 @@ const ProjectCard = ({ project }: { project: Project }) => {
           >
             <div className="rounded-lg bg-muted/50 p-4 space-y-4">
               <div>
-                <h4 className="font-semibold mb-2">Challenge</h4>
+                <h4 className="font-semibold mb-2">Problema</h4>
                 <p className="text-muted-foreground">{project.details.challenge}</p>
               </div>
               
               <div>
-                <h4 className="font-semibold mb-2">Solution</h4>
+                <h4 className="font-semibold mb-2">Solución</h4>
                 <p className="text-muted-foreground">{project.details.solution}</p>
               </div>
               
               <div>
-                <h4 className="font-semibold mb-2">Impact</h4>
+                <h4 className="font-semibold mb-2">Impacto</h4>
                 <ul className="list-disc list-inside space-y-1 text-muted-foreground">
                   {project.details.impact.map((item, index) => (
                     <li key={index}>{item}</li>
@@ -162,11 +162,11 @@ const ProjectCard = ({ project }: { project: Project }) => {
           >
             {isExpanded ? (
               <>
-                <ChevronUp className="mr-2 h-4 w-4" /> Show Less
+                <ChevronUp className="mr-2 h-4 w-4" /> Ocultar
               </>
             ) : (
               <>
-                <ChevronDown className="mr-2 h-4 w-4" /> See More
+                <ChevronDown className="mr-2 h-4 w-4" /> Ver más
               </>
             )}
           </Button>
